@@ -21,6 +21,7 @@ body{
     background-color: #C8E4B2;
     width: 100%;
     height: auto;
+    margin: 0;
     }
 
 .cuerpo{
@@ -244,9 +245,11 @@ a{
 
 .footer-container 
     {
-    display: flex;
-    justify-content: space-around;
-         align-items: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 0;
          }
              
      .footer-logo img 
@@ -287,6 +290,10 @@ a{
          display: flex;
          justify-content: space-around;
          margin-top: 4%;
+         left: 0;
+         bottom: 0;
+         padding-left: 0;
+         padding-bottom: 0;
          }
      
 /*snake*/
